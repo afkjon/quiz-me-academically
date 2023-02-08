@@ -93,6 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: 1000px;
 }
 
 a {
@@ -104,4 +105,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
